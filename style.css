@@ -1,0 +1,356 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+.container {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.separate {
+	text-align: center;
+	position: relative;
+	top: 25px;
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+.btn {
+	background-color: #01aff4;
+}
+
+.blue {
+	color: #01aff4;
+}
+
+.orange {
+	color: #ff9d59;
+}
+
+.yellow {
+	color: #ffd900;
+}
+
+.red {
+	color: #ff0000;
+}
+
+/****************** Header Style ******************/
+.header-back {
+	background-image: url(/assets/indexbanner-bg3.jpg);
+	background-size: cover;
+	height: 668px;
+}
+
+header {
+  color: white;
+}
+
+header h1 {
+	font-size: 40px;
+}
+
+.title {
+	position: relative;
+    top: 40%;
+}
+
+.title p {
+	margin-top: 25px;
+}
+
+/****************** NAV Style ******************/
+
+nav {
+	height: 112px;
+	padding-top: 40px;
+  box-sizing: border-box;
+}
+
+nav ul {
+	float: right;
+	padding-top: 10px;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+
+/****************** Search box Style ******************/
+form {
+	margin-bottom: 30px;
+}
+
+.search-frm {
+    position: relative;
+    box-sizing: border-box;
+    height: 80px;
+    width: 100%;
+    margin-top: -40px;
+    padding-left: 20px;
+}
+
+.search-btn {
+	position: relative;
+  padding: 0px;
+  width: 110px;
+  height: 80px;
+  top: -80px;
+  right: 0px;
+  float: right;
+  margin: 0px;
+  color: white;
+  font-family: 'Open Sans';
+  border: 0px;		
+}
+
+/****************** Services section Style ******************/
+.services {
+	text-align: center;
+  margin-top: 60px;
+	padding: 60px 0px;
+}
+
+.services article {
+	display: inline-block;
+	margin-left: 40px;
+	width: 20%;
+}
+
+.services h4 {
+  margin: 30px 0px;
+}
+
+/****************** Phone section Style ******************/
+.phone {
+ 	text-align: center;
+	margin-top: 60px;
+  padding-top: 60px;
+}
+
+.phone h4 {
+  margin-top: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 60px;
+}
+
+.phone h5 {
+	display: inline-block;
+	margin: 0px 20px;
+}
+
+.phone article {
+	display: inline-block;
+	width: 25%;
+}
+
+.phone-features img {
+  position: relative;
+  top: 20px;
+}
+
+.phone ul {
+	list-style-type: none;
+}
+
+.phone .phone-img {
+	width: 40%;
+  text-align: center;
+}
+
+.phone .phone-features {
+	position: relative;
+  top: -150px;
+}
+
+.phone .phone-features p {
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+.phone .right {
+  text-align: right;
+}
+
+.phone .left {
+	text-align: left;
+}
+
+.phone .right p {
+  padding-right: 70px;
+}
+
+.phone .left p {
+  padding-left: 70px;
+}
+
+
+/****************** Pricing section Style ******************/
+.pricing {
+	height: 573px;
+  background-image: url(/assets/pricing-bg.jpg);
+  background-repeat: round;
+  position: relative;
+  top: -120px;
+  z-index: -1;
+  text-align: center;
+}
+
+.pricing h2 {
+  padding-top: 200px;
+  top: 200px;	
+}
+
+.pricing h4 {
+	margin: 30px 0px;
+  padding: 30px 0px
+}
+
+
+/****************** Tables section Style ******************/
+.tables {
+	height: 510px;
+	text-align: center;
+}
+
+.tables article {
+  display: inline-block;
+  width: 20%;
+  height: 660px;
+  background-color: white;
+  margin: 0px 20px;
+  border: 1px solid #e3e3e3;
+  position: relative;
+  top: -220px;
+}
+
+.tables ul {
+	list-style-type: none;
+	margin: 55px 25px;
+	padding-top: 40px;
+	text-align: left;
+	border-top: 1px solid #e3e3e3;
+}
+
+.tables ul li {
+  margin: 20px 0px;
+}
+
+.tables h5 {
+  padding-top: 50px;
+}
+
+.tables h3 {
+  padding-top: 50px;
+  font-size: 50px;
+}
+
+.tables .cent {
+	font-size: 20px;
+	position: relative;
+  top: -22px;
+}
+
+.tables .pkg-cant {
+	float: right;
+}
+
+.tables .pkg-btn {
+  border-radius: 5px;
+  display: block;
+  width: 200px;
+  height: 40px;
+  color: white;
+  margin: 0px 20px;
+  box-sizing: border-box;
+  padding-top: 10px;
+}
+
+/****************** Footer section Style ******************/
+.hosting {
+	height: 225px;
+  background-color: #142e3f;
+  color: white;
+}
+
+.hosting-prf {
+	color: #01aff4;
+	font-size: 34px;
+	font-weight: 700;
+}
+
+.hosting p {
+  padding-top: 100px;
+  padding-left: 50px;
+  font-size: 24px;
+}
+
+footer {
+  color: white;
+  background-color: #091722;
+}
+
+footer p {
+	display: inline-block;
+}
+
+footer a {
+	color: white;
+}
+
+/****************** Animations ******************/
+.iconos:hover{
+  transition:1.3s ease-in-out;
+  transform: scale(1.25)
+}
+
+
+
+ .iconos:hover{ 
+    -webkit-transform: scale(1.35);
+    transform: scale(1.25)
+}
+
+/****************** Mobile - media queries ******************/
+
+@media  screen and (max-width: 850px){
+
+.container {
+text-align: center;
+width: 49%;
+margin-bottom: 20px;  
+}
+.tables {
+width: 49%;
+margin-bottom: 20px;  
+}
+
+@media  screen and (max-width: 650px){  
+.servicios article{
+width: 100%;}
+.no-mostrar-mobile{display: none !important;
+  }
+.solo-mobile{display: inline-block;
+
+  }
+
+@media  screen and (max-width: 400px){  
+.productos {
+width: 100%;
+margin-bottom: 20px;
+  }
+
+}
